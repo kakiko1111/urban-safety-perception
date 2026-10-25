@@ -1,0 +1,20 @@
+# Data and run outputs
+data/*
+!data/README.md
+outputs/
+*.pth
+*.pt
+*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,5 @@
+experiment,preprocessing,model,val_accuracy
+resnet50_rgb,rgb,resnet50,70.97
+vit_rgb,rgb,vit_b16,73.23
+resnet50_gray,gray,resnet50,72.24
+vit_gray,gray,vit_b16,67.41
