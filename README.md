@@ -82,9 +82,9 @@ python run_experiments.py --data-path data/place-pulse-2.0 --experiments vit_rgb
 
 Everything is written to `outputs/`: the labeled dataset and train/val place lists, best checkpoints (`*_best.pth`), `all_results.csv`, `training_history.csv`, training-curve and confusion-matrix figures, and examples of misclassified images (skip these with `--skip-error-examples`). The device (MPS, CUDA or CPU) is picked automatically, or set it with `--device`.
 
-## How I built this
+## My role
 
-I wrote this project with AI-assisted coding. I chose the research questions, the labeling threshold, the place-based split and the RGB/grayscale design, and I reviewed the code and results throughout.
+I designed the research questions and experiments, including the labeling threshold, the place-based train/validation split and the RGB vs grayscale comparison. I used AI coding tools to speed up implementation and reviewed the code and results throughout.
 
 ## References
 
